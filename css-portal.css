@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+
+
+
+html,body{
+	height: 100%;
+	width: 100%;
+  font-family:'Raleway', sans-serif;
+
+}
+
+#logo-img{
+  
+width:20%;
+min-width: 230px !important;
+height: auto !important;
+
+
+
+}
+
+#login{
+
+	margin-top: 1%;
+	margin-right: 1.4%;
+
+	float: right;
+	background-color: #ffd801 ;
+	color: white;
+	border-style: none;
+  border-image: none;
+	
+  width: 6.5%;
+  min-width: 80px;
+  height: auto !important;
+	font-size: 120%;
+	box-shadow: none !important;
+  font-weight: bold;
+  border-radius: 0px;
+
+}
+
+
+#skip-link a {
+   
+    color:  #54575a;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+    text-decoration: underline;
+    
+}
+
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+    border-radius: 5px;
+    background-color: #fbf9f5;
+    padding: 2%;
+    font-family:'Raleway', sans-serif;
+}
+
+.padding{
+	padding: 50px 0;
+}
+
+.padding img{
+	width: 100%;
+	 border-radius: 0px;
+}
+
+@media screen and (min-width: 1200px){
+.container {
+    max-width: 1140px !important;
+}
+}
+
+@media screen and(min-width: 992px){
+.container {
+    max-width: 60px !important;
+}
+}
+@media screen and(min-width: 768px){
+.container {
+    max-width: 60px !important;
+}
+}
+@media screen and(min-width: 576px){
+.container {
+    max-width: 60px !important;
+}
+}
+
+
+
+#home{
+
+background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: auto;
+ 
+
+  
+}
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-bar-home{
+	float: right;
+}
+
+
+.imgButton {
+  border-style: none;
+  
+  background: #54575a;
+  color: white;
+  border-image: none;
+  font-family:'Questrial', sans-serif;
+  
+  font-size: 100%;
+  
+  width: 100%; 
+  height:auto!important ;
+  max-height: 30px;
+  padding-left:0px;
+  
+  max-width: 250px;
+  margin-bottom: 6%;
+}
+
+
+
+
+
+.genreName{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 20px;
+	text-decoration: none;
+  color: #ffd801;
+}
+
+
+div{
+	display: block;
+}
+
+#awards::before,#awards::after{
+	box-sizing: border-box;
+}
+.footer1{
+	width:100%;
+	background-color: #4053a4;
+	padding: 1% 1% 1% 1%;
+	color:#FFF; 
+  font-family:'Raleway', sans-serif;
+  height: 10%;
+}
+
+.footer1 .fa{
+	padding: 15px;
+	font-size: 35px;
+	color:#FFF;
+}
+
+.footer1 .fa:hover{
+	color:#ffd801;
+text-decoration: none;
+}
+
+h2 a{
+	font-size: 100px;
+	font-weight: bold;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.btn-success{
+	background: #ffd801;
+	border-color:#ffd801;
+	border-radius: none;
+	font-weight: bold;
+
+}
+
+.menu-bar-home{
+	float: right;
+	
+	font-size: 21px;
+	background-color:transparent;
+	font-family: 'Questrial',sans-serif;
+}
+
+.dropdowns
+{
+	z-index: 100;
+}
+
+
+.toggleMenu a:hover,.toggleMenu a:focus,.fa-bars:hover{
+color: white !important;
+}
+
+
+#explore-nav a
+{
+color: #a8a8aa;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Questrial',sans-serif;
+}
+
+#explore-nav a:hover,#explore-nav a:focus{
+	text-decoration: none;
+	color: white;
+	background: #ddd;
+}
+
+
+.dropbtn {
+    background-color:  #a8a8aa ;
+    height: 45px;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    color: white !important;
+}
+
+.dropdown-content a {
+    color: #a8a8aa; !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+  background: #ccc !important;
+  color: #141517 !important;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+}
+
